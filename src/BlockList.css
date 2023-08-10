@@ -1,0 +1,32 @@
+.block-list-wrapper {
+  padding: 3rem; /* Adjust the padding value as desired */
+  backdrop-filter: blur(20px);
+  background: rgba(16, 19, 53, 0.4);
+  border: 1px solid white;
+  width: 400px; /* Adjust the width value as desired */
+  margin: 0 auto; /* Center the block-list box horizontally */
+  border-radius: 10px; /* Adjust the border-radius value as desired */
+}
+
+.block-list__title {
+  margin-top: 4rem; /* Adjust the margin-top value as desired */
+}
+
+.block-list img {
+  max-width: 280px; /* Adjust the max-width value as desired */
+  height: auto;
+  text-align: center;
+}
+
+.block-list__btn {
+  padding: 1rem 2.5rem; /* Adjust the padding value as desired */
+  line-height: 1rem;
+  font-size: 1rem; /* Adjust the font-size value as desired */
+}
+
+.block-list__btn span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem; /* Adjust the font-size value as desired */
+  color: #5f5ecd;
+}

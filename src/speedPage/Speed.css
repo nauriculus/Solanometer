@@ -1,0 +1,274 @@
+.dashboard-data p {
+  font-size: 16px;
+  position: center;
+  margin: 10px 0;
+}
+
+.dashboard-data a {
+  color: #007bff; /* Adjust the link color */
+}
+
+.heading-main {
+  font-size: 30px; /* Adjust the font size as desired */
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.custom-btn {
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  background-color: #5f5ecd;
+  color: #fff;
+  margin-top: 0px; 
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.2s ease-in-out;
+
+  &:hover {
+    animation: glow 1s ease-in-out infinite;
+  }
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(103, 126, 255, 0.8);
+  }
+  100% {
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.3);
+  }
+}
+
+.settings-icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  
+  top: 0;
+  right: 0;
+  opacity: 0; /* Start with 0 opacity */
+  transition: opacity 0.3s ease-in-out; /* Add a smooth opacity transition */
+}
+
+.data-point:hover .settings-icon {
+  opacity: 1; /* Show the icon when hovering over the data-point */
+}
+
+.settings-icon-container {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+
+.settings-icon {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.info-box {
+  position: absolute;
+  top: -20px; /* Adjust the value to position the box vertically */
+  right: 10px; /* Adjust the value to position the box horizontally */
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  display: none; /* Initially hide the info box */
+}
+
+/* Add this CSS to show the info box when its respective settings icon is clicked */
+.data-box:hover .info-box {
+  display: block;
+}
+
+/* Add hover effect to the settings icon */
+.settings-icon:hover + .info-box {
+  display: block;
+}
+
+.dashboard-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  position: center;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  padding: 1.8rem;
+  background-color: #000000ee; /* Dark background color */
+  border-radius: 10px;
+  color: #fff; /* Font color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.heading-main {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.loading-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Adjust the height as needed to center the animation */
+  font-size: 24px;
+  color: #5f5ecd;
+  animation: loading-dots 1s infinite;
+}
+
+
+@keyframes loading-dots {
+  0% {
+    content: ".";
+  }
+  50% {
+    content: "..";
+  }
+  100% {
+    content: "...";
+  }
+}
+
+
+.dashboard-data {
+  display: flex;
+  flex-direction: column; /* Add this to stack the content vertically */
+  align-items: center;
+  text-align: center; /* Center text horizontally within the .dashboard-data */
+}
+
+.data-box {
+  /* Your existing styles */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+  width: 450px;
+  background-color: #13151b;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  position: relative;
+}
+
+
+.data-point {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.data-icon {
+  width: 50px; /* Adjust the circle size as desired */
+  height: 50px; /* Adjust the circle size as desired */
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.data-title {
+  font-size: 14px;
+  font-weight: normal; /* Set the data-title to normal font-weight */
+  justify-content: center;
+  align-items: center;
+}
+
+.data-text,
+.data-link {
+  font-size: 16px;
+  font-weight: bold; /* Set the data-text to bold font-weight */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.is-uppercase {
+  text-transform: uppercase;
+}
+
+.u-margin-top_large {
+  margin-top: 40px; /* Adjust the margin top as desired */
+}
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.centered-text {
+  display: flex;
+  justify-content: center;
+}
+
+.block-list__btn-container {
+  display: flex;
+  justify-content: center;
+  
+  margin-top: 1rem; /* Adjust the margin-top value as desired */
+}
+
+/* Customize the form fields */
+.speed-modal .MuiFormControl-root {
+  width: 100%;
+  justify-content: center; /* Center content horizontally and vertically */
+  margin-bottom: 20px;
+}
+
+/* Customize the form field labels */
+.speed-modal .MuiFormLabel-root {
+  justify-content: center; /* Center content horizontally and vertically */
+  color: #333; /* Adjust the label color */
+}
+
+/* Customize the filled form input */
+.speed-modal .MuiFilledInput-root {
+  background-color: #fff; /* Adjust the input background color */
+  color: #333; /* Adjust the input text color */
+  justify-content: center; /* Center content horizontally and vertically */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Customize the form input underline */
+.speed-modal .MuiInput-underline:before {
+  border-bottom: none;
+  justify-content: center; /* Center content horizontally and vertically */
+}
+
+/* Customize the sizing guide text */
+.speed-modal-sizing-guide {
+  text-align: center;
+  justify-content: center; /* Center content horizontally and vertically */
+  color: #ccc; /* Adjust the sizing guide text color */
+  margin-top: 20px;
+}
+
+.speed-modal-sizing-guide-text {
+  font-size: 0.8rem;
+  justify-content: center; /* Center content horizontally and vertically */
+  border-bottom: dotted;
+}

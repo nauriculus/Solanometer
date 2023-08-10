@@ -1,0 +1,121 @@
+.info-container {
+    margin-top: 5rem;
+    max-width: 90em
+}
+
+.info {
+    display: flex;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.info div {
+    margin: 30px 0 0 0;
+}
+
+
+.info__heading span {
+    font-weight: 300;
+    color: white;
+}
+
+.info img {
+    display: none;
+}
+
+/* Add your custom styles here */
+.custom-btn {
+    display: inline-block;
+    padding: 20px 24px; /* Adjust padding as needed */
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid #fff;
+    text-align: center;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s, box-shadow 0.2s ease-in-out;
+    position: relative;
+    margin-top: -20px; 
+    overflow: hidden;
+    z-index: 0;
+  }
+  
+  .custom-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #007bff;
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+    z-index: -1;
+  }
+  
+  .custom-btn:hover::before {
+    transform: translateX(0);
+  }
+  
+  .custom-btn:hover {
+    color: #fff;
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.3);
+    animation: glow 1s ease-in-out infinite;
+  }
+  
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(0, 123, 255, 0.8);
+    }
+    100% {
+      box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.3);
+    }
+  }
+
+.info--box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+    box-shadow: 12px 12px 0 rgba(0, 0, 0, .3);
+    text-align: center;
+}
+
+.info--box.is-primary {
+    border: 1px solid var(--bd-color-accent);
+    background-color: var(--bd-color-primary);
+}
+
+.info--box.is-accent-bright {
+    background-color: var(--bd-color-accent-bright);
+}
+
+.info--box__supply div {
+    flex: 1;
+}
+
+.info--box-title {
+    padding: 1rem;
+}
+
+.info--box-description {
+    padding: 1rem 2rem;
+}
+
+.info--box-title {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+@media all and (min-width: 1024px) {
+    .info div {
+        margin: 30px 0 0;
+    }
+}
