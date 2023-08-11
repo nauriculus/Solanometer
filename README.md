@@ -21,4 +21,18 @@ Solanometer is an innovative tool that shines a spotlight on Solana's exceptiona
 
 ## Installation
 
-Please refer to the [installation guide](https://github.com/nauriculus/Solanometer/installation) for detailed instructions on how to install Solanometer.
+To set up Solanometer using npm, follow these steps:
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- Node.js and npm. Download from [nodejs.org](https://nodejs.org/).
+
+### Installation
+
+1. Clone the repository:
+2. Install dependencies: npm install package.json
+3. Use npm start / or npm run build: If hosted locally you can access the project at `http://localhost:3000` in your browser.
+
+
