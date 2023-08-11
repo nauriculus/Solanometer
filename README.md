@@ -2,7 +2,8 @@
 
 Solanometer is an innovative tool that shines a spotlight on Solana's exceptional capabilities in terms of transaction speed and cost efficiency. Tailored to showcase Solana's prowess, this tool provides users with a direct and informative insight into the remarkable features that set Solana apart in the blockc!
 hain ecosystem.
-[Screenshot (1876)](https://github.com/nauriculus/Solanometer/assets/24634581/6d8aecb7-220d-4975-bc24-637b5248df19)
+![Screenshot (1876)](https://github.com/nauriculus/Solanometer/assets/24634581/85bf2868-6e9d-445f-8942-8d24f6352c2d)
+
 
 
 # Key Features:
