@@ -13,7 +13,7 @@ Solanometer is an innovative tool that shines a spotlight on Solana's exceptiona
 
 2. **Instantaneous Speed:** Experience Solana's lightning-fast transaction confirmation times as Solanometer processes and displays the near-instantaneous validation of transactions.
 
-3. **Cost Comparison:** Discover Solana's cost efficiency as Solanometer contrasts transaction fees with those of other prominent blockchain networks, highlighting the economical advantages of Solana.
+3. **Cost Comparison:** Discover Solana's cost efficiency as Solanometer contrasts transaction fees with the ETH network, highlighting the economical advantages of Solana.
 
 4. **Interactive Visualization:** Through interactive graphs and visual representations, users gain a clear understanding of Solana's performance metrics, making it easy to comprehend complex speed and cost factors.
 
