@@ -16,4 +16,7 @@ Solanometer delivers real-time data on transaction speed and cost by analyzing a
 Instantaneous Speed: Experience Solana's lightning-fast transaction confirmation times as Solanometer processes and displays the near-instantaneous validation of transactions.
 Cost Comparison: Discover Solana's cost efficiency as Solanometer contrasts transaction fees with those of other prominent blockchain networks, highlighting the economical advantages of Solana.
 Interactive Visualization: Through interactive graphs and visual representations, users gain a clear understanding of Solana's performance metrics, making it easy to comprehend complex speed and cost factors.
+
 ![Screenshot (1879)](https://github.com/nauriculus/Solanometer/assets/24634581/346042b0-33bc-4f11-9332-8b4ab70e2fa8)
+
+Installation
